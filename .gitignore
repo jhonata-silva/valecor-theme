@@ -1,0 +1,11 @@
+# Ignorar todos os arquivos
+*
+
+# Não ignorar a pasta wp-content
+!.gitignore
+!wp-content/
+
+# Não ignorar a pasta do tema valecor
+!wp-content/themes/
+!wp-content/themes/valecor/
+!wp-content/themes/valecor/**
