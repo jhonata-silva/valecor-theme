@@ -26,3 +26,7 @@ function custom_menu()
     register_nav_menu('MenuPrincipal', __('Menu Principal'));
 }
 add_action('init', 'custom_menu');
+
+
+
+require_once get_template_directory() . '/inc/options.php';

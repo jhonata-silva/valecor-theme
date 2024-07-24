@@ -34,7 +34,6 @@ body {
 }
 
 .cab01 {
-    background-color: #8DD0AB;
     width: 100%;
     height: 15px;
     margin: 0px;
@@ -45,7 +44,6 @@ body {
 
 .header-home {
     position: fixed;
-    background-color: #000337;
     height: 80px;
     width: 100%;
     display: flex;
@@ -73,13 +71,10 @@ body {
     text-decoration: none; 
     font-weight: bold;  
     display: block; 
-    color: white;
     font-family: QanelasBold;
     font-size: 18px;
 }
-.menu li a:hover {
-    color: #8DD0AB;
-}
+
 
 /*FIM DE header-home 01*/
 

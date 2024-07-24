@@ -34,7 +34,7 @@ get_header();
                         <!-- List -->
                         <div class="d-flex">
                             <a href="#" class="btn coteja" target="_blank" title="">Cote Já</a>
-                            <a href="#" class="btn btn-custom d-flex align-items-center ms-2" title="">
+                            <a href="<?php echo esc_url(home_url('/contato')); ?>" class="btn btn-custom d-flex align-items-center ms-2" title="">
                                 Saiba Mais
                                 <i class="material-icons ms-1">chevron_right</i>
                             </a>
